@@ -1,7 +1,7 @@
-# <u> **WISHLISTER INSTALLATION INSTRUCTIONS** </u>
+# **WISHLISTER INSTALLATION INSTRUCTIONS**
 ###To begin the installation process of our website please follow the instructions below to download the needed dependencies for the server:
 
-<u> ### Installing NodeJS: </u>
+### Installing NodeJS:
 
 https://nodejs.org/en/download/current
 
@@ -15,7 +15,7 @@ https://nodejs.org/en/download/current
 
 ●	If not, try uninstalling and installing the program again.
 
-<u> ### Installing The System: </u>
+### Installing The System:
 
 https://github.com/xawood1127/Wishlister
 
