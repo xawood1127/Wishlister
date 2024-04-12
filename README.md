@@ -1,3 +1,5 @@
+WISHLISTER INSTALLATION INSTRUCTIONS
+
 To begin the installation process of our website please follow the instructions below to download the needed dependencies for the server:
 
 Installing NodeJS:
@@ -23,15 +25,15 @@ https://github.com/xawood1127/Wishlister
 ●	Download the file named “Wishlister.zip” under the main branch.
 
 ●	Once downloaded, go to your download location and extract the file to the location of your choice. After clicking extract, the default path will include the folder name but please remove it to look like this example pathway:
-Default: C:\Users\username\Downloads\Wishlister 
-Correct: C:\Users\username\Downloads\
+    Default: C:\Users\username\Downloads\Wishlister 
+    Correct: C:\Users\username\Downloads\
 
-•	After extraction, the system is ready to go. The next step to start the server for the website is to open the folder in a terminal:
-o	Windows 10: Shift + right-click on the Wishlister folder and click “Open Powershell Window Here”.
-o	Windows 11: Right-click on the Wishlister folder and click “Open in Windows Terminal”.
+●	After extraction, the system is ready to go. The next step to start the server for the website is to open the folder in a terminal:
+    o	Windows 10: Shift + right-click on the Wishlister folder and click “Open Powershell Window Here”.
+    o	Windows 11: Right-click on the Wishlister folder and click “Open in Windows Terminal”.
 
-•	Once there, the file path should be the same as where the Wishlister folder is located. To run the server, type “node server.js”. Two prompts should appear, “Server started on 3000” and “MySQL Connected...”. This means your local server has successfully started!
+●	Once there, the file path should be the same as where the Wishlister folder is located. To run the server, type “node server.js”. Two prompts should appear, “Server started on 3000” and “MySQL Connected...”. This means your local server has successfully started!
 
-•	The last step is to open your browser and go to http://localhost:3000/.
+●	The last step is to open your browser and go to http://localhost:3000/.
 
-•	Once you are done with the site, you can close the server by typing CTRL + C in the command prompt or closing the command prompt window.
+●	Once you are done with the site, you can close the server by typing CTRL + C in the command prompt or closing the command prompt window.
