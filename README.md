@@ -2,6 +2,8 @@ WISHLISTER INSTALLATION INSTRUCTIONS
 
 To begin the installation process of our website please follow the instructions below to download the needed dependencies for the server:
 
+
+
 Installing NodeJS:
 
 https://nodejs.org/en/download/current
@@ -15,6 +17,8 @@ https://nodejs.org/en/download/current
 ●	In the command prompt window, type “node -v” and if a version number is returned, NodeJS was successfully installed on your system. 
 
 ●	If not, try uninstalling and installing the program again.
+
+
 
 Installing The System:
 
