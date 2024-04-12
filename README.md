@@ -4,7 +4,7 @@ Installing NodeJS:
 https://nodejs.org/en/download/current
 ●	Click the link above and select an installer appropriate to your operating system.
 ●	On completion of the download, run the installation file and follow the instructions to install NodeJS on your system. Whenever prompted with options, use the default option available.
-●	After installation, open your command prompt by typing “cmd” in the windows search bar.
+●	After installation, open your command prompt by typing “cmd” in the Windows search bar.
 ●	In the command prompt window, type “node -v” and if a version number is returned, NodeJS was successfully installed on your system. 
 ●	If not, try uninstalling and installing the program again.
 
@@ -16,8 +16,8 @@ https://github.com/xawood1127/Wishlister
 Default: C:\Users\username\Downloads\Wishlister 
 Correct: C:\Users\username\Downloads\
 •	After extraction, the system is ready to go. The next step to start the server for the website is to open the folder in a terminal:
-o	Windows 10: Shift + right click on the Wishlister folder and click “Open Powershell Window Here”.
-o	Windows 11: Right click on the Wishlister folder and click “Open in Windows Terminal”.
+o	Windows 10: Shift + right-click on the Wishlister folder and click “Open Powershell Window Here”.
+o	Windows 11: Right-click on the Wishlister folder and click “Open in Windows Terminal”.
 •	Once there, the file path should be the same as where the Wishlister folder is located. To run the server, type “node server.js”. Two prompts should appear, “Server started on 3000” and “MySQL Connected...”. This means your local server has successfully started!
 •	The last step is to open your browser and go to http://localhost:3000/.
 •	Once you are done with the site, you can close the server by typing CTRL + C in the command prompt or closing the command prompt window.
