@@ -1,5 +1,5 @@
 # **WISHLISTER INSTALLATION INSTRUCTIONS**
-###To begin the installation process of our website please follow the instructions below to download the needed dependencies for the server:
+#### To begin the installation process of our website please follow the instructions below to download the needed dependencies for the server:
 
 ### Installing NodeJS:
 
