@@ -36,3 +36,69 @@ https://github.com/xawood1127/Wishlister
 ●	The last step is to open your browser and go to http://localhost:3000/.
 
 ●	Once you are done with the site, you can close the server by typing CTRL + C in the command prompt or closing the command prompt window.
+
+### For Future Developers, Installing the Database: 
+
+https://dev.mysql.com/downloads/installer/ 
+
+●	Keep the default options and download the “mysql-installer-community-8.0.36.0.msi”. 
+
+●	Once downloaded, run the installer and all the MySQL tools will be installed on your system. For any prompts, keep the default options and continue to hit the “Next” button. When prompted to enter a password, enter any password you would like but make sure to note it as it is used to access the database. 
+
+●	After installation, navigate to the MySQL command client and enter the following commands in sequential order: 
+
+CREATE SCHEMA `wishlister`; 
+
+CREATE TABLE `wishlister`.`users` ( 
+
+  	`userId` INT NOT NULL AUTO_INCREMENT, 
+
+  	`username` VARCHAR(255) NOT NULL, 
+
+  	`email` VARCHAR(255) NOT NULL, 
+
+  	`password` VARCHAR(255) NOT NULL, 
+
+  	`profPic` VARCHAR(255) NOT NULL, 
+
+  	`securQuest` VARCHAR(100) NOT NULL, 
+
+  	`securAns` VARCHAR(255) NOT NULL, 
+
+  	PRIMARY KEY (`userId`, `username`, `email`)); 
+
+CREATE TABLE `wishlister`.`userlists` ( 
+
+  	`id` int NOT NULL, 
+
+  	`listId` int NOT NULL AUTO_INCREMENT, 
+
+  	`listName` varchar(255) NOT NULL, 
+
+  	`listItems` varchar(8000) NOT NULL, 
+
+  	`itemPrices` text NOT NULL, 
+
+  	`purchased` text NOT NULL, 
+
+  	PRIMARY KEY (`listId`), 
+
+  	KEY `id_idx` (`id`), 
+
+  	CONSTRAINT `id` FOREIGN KEY (`id`) REFERENCES `users` (`userId`) ON 	DELETE RESTRICT ON UPDATE CASCADE) 
+
+●	This should create the necessary tables in MySQL to allow you access to your own database. 
+
+●	Now in the server.js file of the Wishlister.zip, the credentials at line 11 must be changed, replace all the code within the “mysql.createConnection({“ with the following: 
+
+host: 'localhost', 
+
+    		user: 'root', 
+
+   		password: 'your password',	<- this is your password from earlier 
+
+    		database: 'wishlister' 
+
+●	Next delete line 9 and 2. You can also delete the “DigiCertGlobalRootCA.crt.pem” file from the Wishlister folder. 
+
+●	Now you have access to maintain and edit your own database. 
