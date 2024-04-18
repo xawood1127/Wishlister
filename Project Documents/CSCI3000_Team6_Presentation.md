@@ -1,1 +1,0 @@
-Link to Team 6 Presentation: https://ungprod-my.sharepoint.com/:p:/r/personal/bnbump3131_ung_edu/Documents/CSCI3300_team6_project/CSCI3300_team6_presentation.pptx?d=w88a3050790f8462dbe184c4c60c97933&csf=1&web=1&e=sOqwXn

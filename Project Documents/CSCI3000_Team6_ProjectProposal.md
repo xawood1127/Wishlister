@@ -1,1 +1,0 @@
-Link to Team 6 Project Proposal: https://ungprod-my.sharepoint.com/:w:/r/personal/bnbump3131_ung_edu/Documents/CSCI3300_team6_project/CSCI3000_Team6_ProjectProposal_ver2.0.docx?d=wfadff5317bd7422cab8ce0b268bb62a2&csf=1&web=1&e=yjrtsf
